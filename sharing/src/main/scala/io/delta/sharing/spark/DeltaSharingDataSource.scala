@@ -50,6 +50,7 @@ import org.apache.spark.sql.types.StructType
  */
 private[sharing] class DeltaSharingDataSource
     extends RelationProvider
+    with DataSourceRegister
     with DeltaLogging {
   override def createRelation(
       sqlContext: SQLContext,

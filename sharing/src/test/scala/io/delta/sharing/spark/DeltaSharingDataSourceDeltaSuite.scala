@@ -566,7 +566,6 @@ trait DeltaSharingDataSourceDeltaSuiteBase
       }
     }
   }
-
 }
 
 class DeltaSharingDataSourceDeltaSuite extends DeltaSharingDataSourceDeltaSuiteBase {}
